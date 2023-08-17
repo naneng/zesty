@@ -96,6 +96,30 @@ progress[value]::-webkit-progress-value {
   background: #294910;
 }
 
+
+h3 {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px;
+  line-height: 1;
+  /* border-top: dashed; */
+  opacity: 50%;
+  color: #294910;
+}
+
+p {
+  flex: 2;
+  font-size: 10px;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  left: 50%;
+  transform: translate(-50%);
+  color: #294910;
+}
+
+
+
 @media (max-width: 800px) {
   section {
     flex-direction: column;

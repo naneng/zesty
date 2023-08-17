@@ -63,6 +63,7 @@ const App = () => {
           />
         ))}
       </figure>
+      <p>Copyrights 2023 Katrina Ariola. All rights reserved.</p>
     </section>
   );
 };
