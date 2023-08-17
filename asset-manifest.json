@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zesty/static/css/main.7b682bdb.css",
-    "main.js": "/zesty/static/js/main.7a2d33e0.js",
+    "main.css": "/zesty/static/css/main.a21dd628.css",
+    "main.js": "/zesty/static/js/main.e4537fd4.js",
     "static/js/787.8f25be3f.chunk.js": "/zesty/static/js/787.8f25be3f.chunk.js",
     "static/media/image3.jpeg": "/zesty/static/media/image3.b5c8e77299a6b79d1df8.jpeg",
     "static/media/image1.jpeg": "/zesty/static/media/image1.808833ab907e5b92c258.jpeg",
@@ -10,12 +10,12 @@
     "static/media/image6.jpeg": "/zesty/static/media/image6.03053c0072fcb68a447c.jpeg",
     "static/media/image5.jpeg": "/zesty/static/media/image5.b53cf11ea65e177fb036.jpeg",
     "index.html": "/zesty/index.html",
-    "main.7b682bdb.css.map": "/zesty/static/css/main.7b682bdb.css.map",
-    "main.7a2d33e0.js.map": "/zesty/static/js/main.7a2d33e0.js.map",
+    "main.a21dd628.css.map": "/zesty/static/css/main.a21dd628.css.map",
+    "main.e4537fd4.js.map": "/zesty/static/js/main.e4537fd4.js.map",
     "787.8f25be3f.chunk.js.map": "/zesty/static/js/787.8f25be3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b682bdb.css",
-    "static/js/main.7a2d33e0.js"
+    "static/css/main.a21dd628.css",
+    "static/js/main.e4537fd4.js"
   ]
 }
