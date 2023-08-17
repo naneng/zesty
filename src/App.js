@@ -6,6 +6,8 @@ import fig from "./assets/image3.jpeg";
 import gaze from "./assets/image4.jpeg";
 import peach from "./assets/image5.jpeg";
 import avocado from "./assets/image6.jpeg";
+import { ReactComponent as BackArrow } from './assets/arrow-left.svg';
+import { ReactComponent as NextArrow} from './assets/arrow-right.svg';
 
 const images = [cabbage, mango, fig, gaze, peach, avocado];
 
@@ -22,12 +24,16 @@ const App = () => {
   const [currentImage, setCurrentImage] = useState(0);
   const [numLoaded, setNumLoaded] = useState(0);
 
-  const handleClick = () => {
-    const length = images.length - 1;
+  const handleNext = () => {
+    // const length = images.length - 1;
+    setCurrentImage((currentImage) => (currentImage + 1) % images.length)
 
-    setCurrentImage((currentImage) => {
-      return currentImage < length ? currentImage + 1 : 0;
-    });
+  };
+
+  const handleBack = () => {
+    setCurrentImage(
+      (currentImage) => (currentImage - 1 + images.length) % images.length
+    );
   };
 
   const handleImageLoad = () => {
@@ -44,6 +50,10 @@ const App = () => {
       </header>
 
       <figure>
+        <nav>
+          <BackArrow onClick={handleBack } />
+          <NextArrow onClick={handleNext} />
+        </nav>
         {numLoaded < images.length && (
           <Loading calculatedWidth={(numLoaded / images.length) * 100} />
         )}
@@ -56,10 +66,10 @@ const App = () => {
             alt=""
             key={imageURL}
             src={imageURL}
-            onClick={handleClick}
+            // onClick={handleClick}
             onLoad={handleImageLoad}
-            // style={{opacity: currentImage === index ? 1 : 0}}
-            className={currentImage === index ? "display" : "hide"}
+            style={{opacity: currentImage === index ? 1 : 0}}
+            // className={currentImage === index ? "display" : "hide"}
           />
         ))}
       </figure>
