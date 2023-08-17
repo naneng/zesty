@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/zesty/static/css/main.a21dd628.css",
-    "main.js": "/zesty/static/js/main.e4537fd4.js",
+    "main.css": "/zesty/static/css/main.0e30ed6d.css",
+    "main.js": "/zesty/static/js/main.c66ffa54.js",
     "static/js/787.8f25be3f.chunk.js": "/zesty/static/js/787.8f25be3f.chunk.js",
     "static/media/image3.jpeg": "/zesty/static/media/image3.b5c8e77299a6b79d1df8.jpeg",
     "static/media/image1.jpeg": "/zesty/static/media/image1.808833ab907e5b92c258.jpeg",
@@ -10,12 +10,14 @@
     "static/media/image6.jpeg": "/zesty/static/media/image6.03053c0072fcb68a447c.jpeg",
     "static/media/image5.jpeg": "/zesty/static/media/image5.b53cf11ea65e177fb036.jpeg",
     "index.html": "/zesty/index.html",
-    "main.a21dd628.css.map": "/zesty/static/css/main.a21dd628.css.map",
-    "main.e4537fd4.js.map": "/zesty/static/js/main.e4537fd4.js.map",
+    "static/media/arrow-left.svg": "/zesty/static/media/arrow-left.fdc0543616e284274ca57661afa97093.svg",
+    "static/media/arrow-right.svg": "/zesty/static/media/arrow-right.0d84442526e0cee9e1e1c52ea1ac2b87.svg",
+    "main.0e30ed6d.css.map": "/zesty/static/css/main.0e30ed6d.css.map",
+    "main.c66ffa54.js.map": "/zesty/static/js/main.c66ffa54.js.map",
     "787.8f25be3f.chunk.js.map": "/zesty/static/js/787.8f25be3f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a21dd628.css",
-    "static/js/main.e4537fd4.js"
+    "static/css/main.0e30ed6d.css",
+    "static/js/main.c66ffa54.js"
   ]
 }
